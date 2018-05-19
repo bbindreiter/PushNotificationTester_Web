@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queue-entries>
+	<queue>
+		<name>NotificationQueue</name>
+		<rate>200/s</rate>
+		<bucket-size>100</bucket-size>
+	</queue>	
+	
+</queue-entries>
