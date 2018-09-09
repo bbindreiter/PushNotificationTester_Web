@@ -4,5 +4,6 @@
   <threadsafe>true</threadsafe>
   <sessions-enabled>false</sessions-enabled>
   <runtime>java8</runtime>
+  <url-stream-handler>urlfetch</url-stream-handler>
 
 </appengine-web-app>
