@@ -60,7 +60,7 @@ public class NotificationTaskServlet extends HttpServlet {
 					obj.put("priority", deliveryPrio.equals("0") ? "normal" : "high"); // normal or high
 					obj.put("time_to_live", 86400); // 1day
 
-					URL url = new URL("http://fcm.googleapis.com/fcm/send");
+					URL url = new URL("https://fcm.googleapis.com/fcm/send");
 					HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 					connection.setDoOutput(true);
 					connection.setRequestMethod("POST");
